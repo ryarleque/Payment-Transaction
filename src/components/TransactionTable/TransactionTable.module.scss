@@ -1,0 +1,25 @@
+.table {
+    width: 100%;
+    text-align: center;
+
+    thead tr {
+        background: gray;
+    }
+
+    thead th {
+        padding: 0.5rem;
+    }
+
+    tbody tr {
+        transition: background-color 0.1s ease-in-out;
+
+        &:hover {
+            background-color: white;
+            color: black;
+        }
+    }
+
+    tbody td {
+        padding: 0.5rem;
+    }
+}
